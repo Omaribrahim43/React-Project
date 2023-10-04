@@ -25,7 +25,7 @@ const Navbar = () => {
       <div className="container">
         <div className="navbar-header">
           <a href="index.html" className="logo" title="Craft beer landing page">
-            <img src="images/logo.svg" alt="Craft Beer HTML Template" />
+            <img src="assets/images/logo.svg" alt="Craft Beer HTML Template" />
           </a>
           <button
             type="button"
