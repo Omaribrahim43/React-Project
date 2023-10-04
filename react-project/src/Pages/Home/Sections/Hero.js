@@ -9,7 +9,7 @@ const Hero = () => {
     >
       <a href="#afterHeader" className="anchor">
         <img
-          src="images/scroll-arrow.svg"
+          src="assets/images/scroll-arrow.svg"
           alt="Scroll down"
           className="scroll"
         />
