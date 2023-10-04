@@ -6,7 +6,7 @@ const NeedHelp = () => {
       <div class="row">
         <div class="col-sm-12 cta">
           <p>Need help? Contact our support team on</p>
-          <p class="gradient-text">0330 123 4567</p>
+          <p class="gradient-text">+962-79-7060670</p>
         </div>
       </div>
     </div>

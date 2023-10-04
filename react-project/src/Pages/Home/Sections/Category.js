@@ -1,138 +1,57 @@
-import React from "react";
+import React from 'react'
 
 const Category = () => {
-  return (
-    <div className="container section remove-top-padding">
+	return (
+    <div className="container section">
     <div className="row">
       <div className="col-sm-12" id="afterHeader">
-        <h2>New in</h2>
+        <h2>Categories</h2>
+        <div className="movie-slide col-md-4">
+          <div className="movie-poster">
+            <a href="#">
+              <img
+                src="https://i.pinimg.com/564x/00/07/e7/0007e75247cbfc10c5ba8a3b5dd0e488.jpg"
+                alt="Movie title"
+                style={{ height: '400px' }}
+              />
+            </a>
+          </div>
+          <h4 style={{ marginLeft: '10px' , marginTop:'10px', fontWeight:'bold'}} className="no-underline">Action movies</h4>
+          <button className='btn btn-primary'>View More</button>
+        </div>
 
-        <div className="slick-carousel" id="newIn">
-          <div className="movie-slide">
-            <div className="movie-poster">
-              <aside>
-                <div>
-                  <a href="https://youtu.be/ScMzIvxBSi4" data-vbtype="video" className="venobox play">
-                    <i className="material-icons">play_arrow</i>
-                  </a>
-                  <a href="single-movie.html" className="read-more">read more</a>
-                  <span className="date">Released: 7 Mar, 2017</span>
-                </div>
-              </aside>
-              <a href="#">
-                <img src="http://via.placeholder.com/265x340.jpg" alt="Movie title" />
-              </a>
-            </div>
-            <h4 className="no-underline">The last post</h4>
-            <div className="star-rating">
-              <i className="material-icons">star_rate</i>
-              <i className="material-icons">star_rate</i>
-              <i className="material-icons">star_rate</i>
-              <i className="material-icons">star_rate</i>
-              <i className="material-icons">star_rate</i>
-            </div>
+        {/* Second category */}
+        <div className="movie-slide col-md-4">
+          <div className="movie-poster">
+            <a href="#">
+              <img
+                src="https://i.pinimg.com/564x/26/01/c9/2601c9686cddb11bd97810637e6a4c01.jpg"
+                alt="Movie title"
+                style={{ height: '400px' }}
+              />
+            </a>
           </div>
-          <div className="movie-slide">
-            <div className="movie-poster">
-              <aside>
-                <div>
-                  <a href="https://youtu.be/ScMzIvxBSi4" data-vbtype="video" className="venobox play">
-                    <i className="material-icons">play_arrow</i>
-                  </a>
-                  <a href="single-movie.html" className="read-more">read more</a>
-                  <span className="date">Released: 7 Mar, 2017</span>
-                </div>
-              </aside>
-              <a href="#">
-                <img src="http://via.placeholder.com/265x340" alt="Movie title" />
-              </a>
-            </div>
-            <h4 className="no-underline">Dark and lonely</h4>
-            <div className="star-rating">
-              <i className="material-icons">star_rate</i>
-              <i className="material-icons">star_rate</i>
-              <i className="material-icons">star_rate</i>
-              <i className="material-icons">star_rate</i>
-              <i className="material-icons grey">star_rate</i>
-            </div>
+          <h4 style={{ marginLeft: '10px' , marginTop:'10px', fontWeight:'bold'}} className="no-underline">Horror movies</h4>
+          <button  className='btn btn-primary'>View More</button>
+        </div>
+        {/* third category */}
+        <div className="movie-slide col-md-4">
+          <div className="movie-poster">
+            <a href="#">
+              <img
+                src="https://i.pinimg.com/564x/e0/cc/67/e0cc670c8b292b6eb77d406388d50835.jpg"
+                alt="Movie title"
+                style={{ height: '400px'}}
+              />
+            </a>
           </div>
-          <div className="movie-slide">
-            <div className="movie-poster">
-              <aside>
-                <div>
-                  <a href="https://youtu.be/ScMzIvxBSi4" data-vbtype="video" className="venobox play">
-                    <i className="material-icons">play_arrow</i>
-                  </a>
-                  <a href="single-movie.html" className="read-more">read more</a>
-                  <span className="date">Released: 7 Mar, 2017</span>
-                </div>
-              </aside>
-              <a href="#">
-                <img src="http://via.placeholder.com/265x340" alt="Movie title" />
-              </a>
-            </div>
-            <h4 className="no-underline">Venture</h4>
-            <div className="star-rating">
-              <i className="material-icons">star_rate</i>
-              <i className="material-icons">star_rate</i>
-              <i className="material-icons">star_rate</i>
-              <i className="material-icons">star_rate</i>
-              <i className="material-icons">star_rate</i>
-            </div>
-          </div>
-          <div className="movie-slide">
-            <div className="movie-poster">
-              <aside>
-                <div>
-                  <a href="https://youtu.be/ScMzIvxBSi4" data-vbtype="video" className="venobox play">
-                    <i className="material-icons">play_arrow</i>
-                  </a>
-                  <a href="single-movie.html" className="read-more">read more</a>
-                  <span className="date">Released: 7 Mar, 2017</span>
-                </div>
-              </aside>
-              <a href="#">
-                <img src="http://via.placeholder.com/265x340" alt="Movie title" />
-              </a>
-            </div>
-            <h4 className="no-underline">Hush</h4>
-            <div className="star-rating">
-              <i className="material-icons">star_rate</i>
-              <i className="material-icons">star_rate</i>
-              <i className="material-icons">star_rate</i>
-              <i className="material-icons grey">star_rate</i>
-              <i className="material-icons grey">star_rate</i>
-            </div>
-          </div>
-          <div className="movie-slide">
-            <div className="movie-poster">
-              <aside>
-                <div>
-                  <a href="https://youtu.be/ScMzIvxBSi4" data-vbtype="video" className="venobox play">
-                    <i className="material-icons">play_arrow</i>
-                  </a>
-                  <a href="single-movie.html" className="read-more">read more</a>
-                  <span className="date">Released: 7 Mar, 2017</span>
-                </div>
-              </aside>
-              <a href="#">
-                <img src="http://via.placeholder.com/265x340" alt="Movie title" />
-              </a>
-            </div>
-            <h4 className="no-underline">Venture</h4>
-            <div className="star-rating">
-              <i className="material-icons">star_rate</i>
-              <i className="material-icons">star_rate</i>
-              <i className="material-icons">star_rate</i>
-              <i className="material-icons">star_rate</i>
-              <i className="material-icons">star_rate</i>
-            </div>
-          </div>
+          <h4 style={{ marginLeft: '5px' , marginTop:'10px', fontWeight:'bold'}} className="no-underline">Adventure movies</h4>
+          <button className='btn btn-primary'>View More</button>
         </div>
       </div>
     </div>
   </div>
-  );
-};
+	)
+}
 
-export default Category;
+export default Category

@@ -27,7 +27,8 @@ const Hero = () => {
         <div
           className="item active"
           style={{
-            backgroundimage: 'url("http://via.placeholder.com/1140x665")',
+            backgroundImage: 'url(https://tajcinemas.com/media/1886/the-creator.jpg?center=0.58727810650887569,0.71035940803382669&mode=crop&width=1440&height=665&rnd=133403009760000000)',
+            padding: '115px',
           }}
         >
           <div className="container">
@@ -40,17 +41,15 @@ const Hero = () => {
               data-translatey="100"
             >
               <div className="col-md-9">
-                <span className="title">Action, Adventure, Fantasy</span>
-                <h1>End of the World: Part II</h1>
+                <span className="title">Action, Adventure, Drama</span>
+                <h1>The Creator</h1>
                 <p>
-                  Claritas est etiam processus dynamicus, qui sequitur
-                  mutationem consuetudium lectorum. Mirum est notare quam
-                  littera gothica, quam nunc putamus parum.
+                  Against the backdrop of a war between humans and robots with artificial intelligence, a former soldier finds the secret weapon, a robot in the form of a young child.
                 </p>
                 <div className="buttons">
                   <span className="certificate">PG</span>
                   <a
-                    href="https://youtu.be/ScMzIvxBSi4"
+                    href="https://youtu.be/MAZuGdi32bk?si=P2jf7F3UVi8Xl0V8"
                     data-vbtype="video"
                     className="venobox btn btn-default"
                   >
@@ -66,7 +65,8 @@ const Hero = () => {
         <div
           className="item"
           style={{
-            backgroundImage: 'url("http://via.placeholder.com/1140x665")',
+            backgroundImage: 'url(https://tajcinemas.com/media/1887/13-exorcisms.jpg?crop=0,0.40975612046347326,0,0.27833018347648919&cropmode=percentage&width=1440&height=665&rnd=133403009640000000)',
+            padding: '115px',
           }}
         >
           <div className="container">
@@ -79,17 +79,15 @@ const Hero = () => {
               data-translatey="100"
             >
               <div className="col-md-9">
-                <span className="title">Action, Adventure, Fantasy</span>
-                <h1>End of the World: Part II</h1>
+                <span className="title">Horror, Thriller</span>
+                <h1>13 Exorcisms</h1>
                 <p>
-                  Claritas est etiam processus dynamicus, qui sequitur
-                  mutationem consuetudium lectorum. Mirum est notare quam
-                  littera gothica, quam nunc putamus parum.
+                  After the strange behavior displayed by teenager Laura Villegas, her parents calls a Vatican-sanctioned exorcist to intervene in the case of demonic possession. From then on, a series of strange pheno.
                 </p>
                 <div className="buttons">
                   <span className="certificate">15</span>
                   <a
-                    href="https://youtu.be/ScMzIvxBSi4"
+                    href="https://youtu.be/ucudqYg5OdQ?si=r8Wr1QU51YAjATjJ"
                     data-vbtype="video"
                     className="venobox btn btn-default"
                   >
@@ -105,7 +103,8 @@ const Hero = () => {
         <div
           className="item"
           style={{
-            backgroundimage: 'url("http://via.placeholder.com/1140x665")',
+            backgroundImage: 'url(https://tajcinemas.com/media/1888/the-kill-room.jpg?center=0.18906064209274673,0.48202959830866809&mode=crop&width=1440&height=665&rnd=133403009450000000)',
+            padding: '115px',
           }}
         >
           <div className="container">
@@ -118,17 +117,15 @@ const Hero = () => {
               data-translatey="100"
             >
               <div className="col-md-9">
-                <span className="title">Action, Adventure, Fantasy</span>
-                <h1>End of the World: Part II</h1>
+                <span className="title">Thriller</span>
+                <h1>The Kill Room</h1>
                 <p>
-                  Claritas est etiam processus dynamicus, qui sequitur
-                  mutationem consuetudium lectorum. Mirum est notare quam
-                  littera gothica, quam nunc putamus parum.
+                  A hitman, his boss, an art dealer and a money-laundering scheme that accidentally turns the assassin into an overnight avant-garde sensation, one that forces her to play the art world against the unde
                 </p>
                 <div className="buttons">
                   <span className="certificate">PG</span>
                   <a
-                    href="https://youtu.be/ScMzIvxBSi4"
+                    href="https://youtu.be/Urs2NSkxvEc?si=sa-AXWZ8OIIP_WGr"
                     data-vbtype="video"
                     className="venobox btn btn-default"
                   >
