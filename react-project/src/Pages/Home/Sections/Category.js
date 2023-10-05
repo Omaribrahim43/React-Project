@@ -4,27 +4,27 @@ import { Link } from "react-router-dom";
 
 
 export default function Category() {
-	const [APIData, setAPIData] = useState([]);
-	useEffect(() => {
-		axios
-			.get("https://651d8b9844e393af2d59fb79.mockapi.io/movies")
-			.then((response) => {
-				setAPIData(response.data);
-			});
-	}, []);
-	const getData = () => {
-		axios
-			.get(`https://651d8b9844e393af2d59fb79.mockapi.io/movies`)
-			.then((getData) => {
-				setAPIData(getData.data);
-			});
-	};
+	// const [APIData, setAPIData] = useState([]);
+	// useEffect(() => {
+	// 	axios
+	// 		.get("https://651d8b9844e393af2d59fb79.mockapi.io/movies")
+	// 		.then((response) => {
+	// 			setAPIData(response.data);
+	// 		});
+	// }, []);
+	// const getData = () => {
+	// 	axios
+	// 		.get(`https://651d8b9844e393af2d59fb79.mockapi.io/movies`)
+	// 		.then((getData) => {
+	// 			setAPIData(getData.data);
+	// 		});
+	// };
 	return (
 		<div className="container section">
 			<div className="row">
 				<div className="col-sm-12" id="afterHeader">
 					<h2>Categories</h2>
-					{APIData.map((data) => {
+					{/* {APIData.map((data) => {
 						return (
 							<div className="movie-slide col-md-4">
 								<div className="movie-poster">
@@ -40,7 +40,7 @@ export default function Category() {
 								<button className='btn btn-primary'>View More</button>
 							</div>
 						);
-					})}
+					})} */}
 				</div>
 			</div>
 		</div>
