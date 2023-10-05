@@ -1,6 +1,7 @@
 import Home from "./Pages/Home/Home";
 import MainMovie from "./Pages/SingleMovie/MainMovie";
 import MainContact from "./Pages/Contact/MainContact";
+import AllMovies from "./Pages/AllMovies/AllMovies";
 import "jquery-ui-dist/jquery-ui";
 import { useEffect } from "react";
 import {BrowserRouter,Routes,Route} from 'react-router-dom'
