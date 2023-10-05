@@ -1,7 +1,9 @@
 import Home from "./Pages/Home/Home";
+import MainMovie from "./Pages/SingleMovie/MainMovie";
 import MainContact from "./Pages/Contact/MainContact";
 import "jquery-ui-dist/jquery-ui";
 import { useEffect } from "react";
+import {BrowserRouter,Routes,Route} from 'react-router-dom'
 
 function App() {
   useEffect(() => {
@@ -618,7 +620,19 @@ function App() {
       });
     });
   }, []);
-  return <Home />;
+  return(
+<div>
+    <BrowserRouter>
+    <Routes>
+
+      <Route path="/Home" element={<Home/>} />
+      <Route path="/single" element={<MainMovie/>} />
+    </Routes>
+    
+    </BrowserRouter>
+  </div>
+  );
+   
 }
 
 export default App;
