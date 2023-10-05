@@ -1,5 +1,6 @@
 import Home from "./Pages/Home/Home";
 import MainContact from "./Pages/Contact/MainContact";
+import AllMovies from "./Pages/AllMovies/AllMovies";
 import "jquery-ui-dist/jquery-ui";
 import { useEffect } from "react";
 
@@ -618,7 +619,7 @@ function App() {
       });
     });
   }, []);
-  return <Home />;
+  return <AllMovies />;
 }
 
 export default App;
