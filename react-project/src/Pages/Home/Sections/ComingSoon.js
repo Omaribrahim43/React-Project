@@ -16,8 +16,8 @@ const ComingSoon = () => {
                 }}
               ></div>
               <div className="col-sm-5 col-xs-12 slide-content">
-                <span className="title">Drama, Thriller</span>
-                <h3 className="no-underline">Deepwater Horizon</h3>
+                <span className="title">Action, Thriller</span>
+                <h3 className="no-underline">EXTACTION</h3>
                 <div className="star-rating">
                   <i className="material-icons">star_rate</i>
                   <i className="material-icons">star_rate</i>
@@ -26,13 +26,11 @@ const ComingSoon = () => {
                   <i className="material-icons">star_rate</i>
                 </div>
                 <div className="date">
-                  <i className="material-icons">date_range</i> 30 September,
-                  2017
+                  <i className="material-icons">date_range</i> 30 December,
+                  2023
                 </div>
                 <p>
-                  A dramatization of the April 2010 disaster, when the offshore
-                  drilling rig Deepwater Horizon exploded and created the worst
-                  oil spill in U.S. history.
+                VannDigital 1st Trailer For Netflix Original Movie (Extraction) Starring Chris Hemsworth “Netflix presents Extraction – Official Movie Trailer #1 [HD]” Synopsis: Tyler Rake is a fearless black-market mercenary with nothing left to lose when his skills are solicited to rescue the kidnapped son of an... The post 1st Trailer For Netflix Original Movie (Extraction) Starring Chris Hemsworth appeared first on VannDigital.
                 </p>
                 <p>
                   <a href="#" className="arrow-button">
@@ -42,12 +40,12 @@ const ComingSoon = () => {
               </div>
               <div className="col-sm-6 col-xs-12 col-sm-push-1 slide-video">
                 <a
-                  href="https://youtu.be/ScMzIvxBSi4"
+                  href="https://youtu.be/L6P3nI6VnlY?si=-47zniVs-hKF8PkK"
                   data-vbtype="video"
                   className="venobox video"
                 >
                   <i className="material-icons">play_arrow</i>
-                  <img src="http://via.placeholder.com/555x335" alt="" />
+                  <img src="https://i.pinimg.com/564x/13/4f/9f/134f9fbf72fc869faf5bd4894b96fa42.jpg" alt="" />
                 </a>
               </div>
             </div>
@@ -315,54 +313,54 @@ const ComingSoon = () => {
             <div className="slick-carousel" id="comingSoon">
               <div data-dynamicclassName="slideOne">
                 <a href="#">
-                  <img src="http://via.placeholder.com/265x340" alt="" />
+                  <img src="https://i.pinimg.com/564x/c7/b0/a9/c7b0a9f7f54f2cc3e3ed650047426a0b.jpg" alt="" />
                 </a>
-                <h5 className="left no-underline">Deepwater horizon</h5>
-                <span className="release-date">07 September, 2017</span>
+                <h5 className="left no-underline">mechanic</h5>
+                <span className="release-date">07 September, 2024</span>
               </div>
               <div data-dynamicclassName="slideTwo">
                 <a href="#">
-                  <img src="http://via.placeholder.com/265x340" alt="" />
+                  <img src="https://i.pinimg.com/564x/26/01/c9/2601c9686cddb11bd97810637e6a4c01.jpg" alt="" />
                 </a>
-                <h5 className="left no-underline">Too fast</h5>
-                <span className="release-date">15 April, 2017</span>
+                <h5 className="left no-underline">A Quiet place</h5>
+                <span className="release-date">15 April, 2024</span>
               </div>
               <div data-dynamicclassName="slideThree">
                 <a href="#">
-                  <img src="http://via.placeholder.com/265x340" alt="" />
+                  <img src="https://i.pinimg.com/564x/99/f8/70/99f8702093bd74454c4636a33f558c4a.jpg" alt="" />
                 </a>
-                <h5 className="left no-underline">The Hangover: Part III</h5>
-                <span className="release-date">30 September, 2017</span>
+                <h5 className="left no-underline">JOKER</h5>
+                <span className="release-date">30 September, 2024</span>
               </div>
               <div data-dynamicclassName="slideFour">
                 <a href="#">
-                  <img src="http://via.placeholder.com/265x340" alt="" />
+                  <img src="https://i.pinimg.com/564x/f7/b8/b3/f7b8b335229262183ee86adf3abc0592.jpg" alt="" />
                 </a>
                 <h5 className="left no-underline">
-                  Transformers: Age of Extinction
+                Wrold War
                 </h5>
-                <span className="release-date">15 April, 2018</span>
+                <span className="release-date">15 April, 2024</span>
               </div>
               <div data-dynamicclassName="slideFive">
                 <a href="#">
-                  <img src="http://via.placeholder.com/265x340" alt="" />
+                  <img src="https://i.pinimg.com/564x/14/01/1b/14011b7f1adb861b31f1f017af437b59.jpg" alt="" />
                 </a>
-                <h5 className="left no-underline">End of an empire</h5>
-                <span className="release-date">19 October, 2018</span>
+                <h5 className="left no-underline">Hancock</h5>
+                <span className="release-date">19 October, 2024</span>
               </div>
               <div data-dynamicclassName="slideSix">
                 <a href="#">
-                  <img src="http://via.placeholder.com/265x340" alt="" />
+                  <img src="https://i.pinimg.com/564x/53/97/f7/5397f7ea8c43ab9aadc9caf39bc2a9dc.jpg" alt="" />
                 </a>
-                <h5 className="left no-underline">Hanibal Rising</h5>
-                <span className="release-date">21 November, 2018</span>
+                <h5 className="left no-underline">DJANGO</h5>
+                <span className="release-date">21 November, 2023</span>
               </div>
               <div data-dynamicclassName="slideSeven">
                 <a href="#">
-                  <img src="http://via.placeholder.com/265x340" alt="" />
+                  <img src="https://i.pinimg.com/564x/06/8e/47/068e4700ce144ddfb8b5863b7b3eafd7.jpg" alt="" />
                 </a>
-                <h5 className="left no-underline">Locked out</h5>
-                <span className="release-date">01 December, 2018</span>
+                <h5 className="left no-underline">LUCA</h5>
+                <span className="release-date">01 December, 2023</span>
               </div>
             </div>
           </div>

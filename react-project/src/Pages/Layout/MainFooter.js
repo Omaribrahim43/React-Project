@@ -54,17 +54,17 @@ const MainFooter = () => {
             <h6>Connect with us</h6>
             <ul>
               <li>
-                <a href="#">
+                <a href="https://www.facebook.com/">
                   <i className="fa fa-facebook"></i> Facebook
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="https://twitter.com/">
                   <i className="fa fa-twitter"></i> Twitter
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="https://www.google.jo/?gws_rd=ssl">
                   <i className="fa fa-google-plus"></i> Google +
                 </a>
               </li>
@@ -73,9 +73,9 @@ const MainFooter = () => {
         </div>
         <div className="copyright">
           <p>
-            2017 &copy; Movie Star /{" "}
+            2023 &copy; Movie Star /{" "}
             <a href="http://www.klevermedia.co.uk">
-              Web design by Klever media
+             All right are save
             </a>
           </p>
         </div>

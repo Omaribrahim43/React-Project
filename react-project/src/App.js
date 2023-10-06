@@ -1,9 +1,13 @@
-import Home from "./Pages/Home/Home";
-import MainContact from "./Pages/Contact/MainContact";
-import MainMovie from "./Pages/SingleMovie/MainMovie";
+import React, { useEffect } from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "jquery-ui-dist/jquery-ui";
-import { useEffect } from "react";
+
+import Home from "./Pages/Home/Home";
 import MainProfile from "./Pages/Profile/MainProfile";
+import MainMovie from "./Pages/SingleMovie/MainMovie";
+import AllMovies from "./Pages/AllMovies/AllMovies";
+import Contact from "./Pages/Contact/Contact";
+import "jquery-ui-dist/jquery-ui";
 
 function App() {
   useEffect(() => {
@@ -620,7 +624,20 @@ function App() {
       });
     });
   }, []);
-  return (<MainProfile />);
+
+  return (
+    <div>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/single" element={<MainMovie />} />
+          <Route path="/allmovies" element={<AllMovies />} />
+          <Route path="/profile" element={<MainProfile />} />
+          <Route path="/contactus" element={<Contact />} />
+        </Routes>
+      </BrowserRouter>
+    </div>
+  );
 }
 
 export default App;

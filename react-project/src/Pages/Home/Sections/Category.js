@@ -1,138 +1,48 @@
-import React from "react";
+import React, { useEffect, useState } from 'react';
+import axios from "axios";
+import { Link } from "react-router-dom";
 
-const Category = () => {
-  return (
-    <div className="container section remove-top-padding">
-    <div className="row">
-      <div className="col-sm-12" id="afterHeader">
-        <h2>New in</h2>
 
-        <div className="slick-carousel" id="newIn">
-          <div className="movie-slide">
-            <div className="movie-poster">
-              <aside>
-                <div>
-                  <a href="https://youtu.be/ScMzIvxBSi4" data-vbtype="video" className="venobox play">
-                    <i className="material-icons">play_arrow</i>
-                  </a>
-                  <a href="single-movie.html" className="read-more">read more</a>
-                  <span className="date">Released: 7 Mar, 2017</span>
-                </div>
-              </aside>
-              <a href="#">
-                <img src="http://via.placeholder.com/265x340.jpg" alt="Movie title" />
-              </a>
-            </div>
-            <h4 className="no-underline">The last post</h4>
-            <div className="star-rating">
-              <i className="material-icons">star_rate</i>
-              <i className="material-icons">star_rate</i>
-              <i className="material-icons">star_rate</i>
-              <i className="material-icons">star_rate</i>
-              <i className="material-icons">star_rate</i>
-            </div>
-          </div>
-          <div className="movie-slide">
-            <div className="movie-poster">
-              <aside>
-                <div>
-                  <a href="https://youtu.be/ScMzIvxBSi4" data-vbtype="video" className="venobox play">
-                    <i className="material-icons">play_arrow</i>
-                  </a>
-                  <a href="single-movie.html" className="read-more">read more</a>
-                  <span className="date">Released: 7 Mar, 2017</span>
-                </div>
-              </aside>
-              <a href="#">
-                <img src="http://via.placeholder.com/265x340" alt="Movie title" />
-              </a>
-            </div>
-            <h4 className="no-underline">Dark and lonely</h4>
-            <div className="star-rating">
-              <i className="material-icons">star_rate</i>
-              <i className="material-icons">star_rate</i>
-              <i className="material-icons">star_rate</i>
-              <i className="material-icons">star_rate</i>
-              <i className="material-icons grey">star_rate</i>
-            </div>
-          </div>
-          <div className="movie-slide">
-            <div className="movie-poster">
-              <aside>
-                <div>
-                  <a href="https://youtu.be/ScMzIvxBSi4" data-vbtype="video" className="venobox play">
-                    <i className="material-icons">play_arrow</i>
-                  </a>
-                  <a href="single-movie.html" className="read-more">read more</a>
-                  <span className="date">Released: 7 Mar, 2017</span>
-                </div>
-              </aside>
-              <a href="#">
-                <img src="http://via.placeholder.com/265x340" alt="Movie title" />
-              </a>
-            </div>
-            <h4 className="no-underline">Venture</h4>
-            <div className="star-rating">
-              <i className="material-icons">star_rate</i>
-              <i className="material-icons">star_rate</i>
-              <i className="material-icons">star_rate</i>
-              <i className="material-icons">star_rate</i>
-              <i className="material-icons">star_rate</i>
-            </div>
-          </div>
-          <div className="movie-slide">
-            <div className="movie-poster">
-              <aside>
-                <div>
-                  <a href="https://youtu.be/ScMzIvxBSi4" data-vbtype="video" className="venobox play">
-                    <i className="material-icons">play_arrow</i>
-                  </a>
-                  <a href="single-movie.html" className="read-more">read more</a>
-                  <span className="date">Released: 7 Mar, 2017</span>
-                </div>
-              </aside>
-              <a href="#">
-                <img src="http://via.placeholder.com/265x340" alt="Movie title" />
-              </a>
-            </div>
-            <h4 className="no-underline">Hush</h4>
-            <div className="star-rating">
-              <i className="material-icons">star_rate</i>
-              <i className="material-icons">star_rate</i>
-              <i className="material-icons">star_rate</i>
-              <i className="material-icons grey">star_rate</i>
-              <i className="material-icons grey">star_rate</i>
-            </div>
-          </div>
-          <div className="movie-slide">
-            <div className="movie-poster">
-              <aside>
-                <div>
-                  <a href="https://youtu.be/ScMzIvxBSi4" data-vbtype="video" className="venobox play">
-                    <i className="material-icons">play_arrow</i>
-                  </a>
-                  <a href="single-movie.html" className="read-more">read more</a>
-                  <span className="date">Released: 7 Mar, 2017</span>
-                </div>
-              </aside>
-              <a href="#">
-                <img src="http://via.placeholder.com/265x340" alt="Movie title" />
-              </a>
-            </div>
-            <h4 className="no-underline">Venture</h4>
-            <div className="star-rating">
-              <i className="material-icons">star_rate</i>
-              <i className="material-icons">star_rate</i>
-              <i className="material-icons">star_rate</i>
-              <i className="material-icons">star_rate</i>
-              <i className="material-icons">star_rate</i>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  );
-};
-
-export default Category;
+export default function Category() {
+	// const [APIData, setAPIData] = useState([]);
+	// useEffect(() => {
+	// 	axios
+	// 		.get("https://651d8b9844e393af2d59fb79.mockapi.io/movies")
+	// 		.then((response) => {
+	// 			setAPIData(response.data);
+	// 		});
+	// }, []);
+	// const getData = () => {
+	// 	axios
+	// 		.get(`https://651d8b9844e393af2d59fb79.mockapi.io/movies`)
+	// 		.then((getData) => {
+	// 			setAPIData(getData.data);
+	// 		});
+	// };
+	return (
+		<div className="container section">
+			<div className="row">
+				<div className="col-sm-12" id="afterHeader">
+					<h2>Categories</h2>
+					{/* {APIData.map((data) => {
+						return (
+							<div className="movie-slide col-md-4">
+								<div className="movie-poster">
+									<a href="#">
+										<img
+											src={data.image}
+											alt="Movie title"
+											style={{ height: '400px' }}
+										/>
+									</a>
+								</div>
+								<h4 style={{ marginLeft: '10px', marginTop: '10px', fontWeight: 'bold' }} className="no-underline">{data.name}</h4>
+								<button className='btn btn-primary'>View More</button>
+							</div>
+						);
+					})} */}
+				</div>
+			</div>
+		</div>
+	)
+}

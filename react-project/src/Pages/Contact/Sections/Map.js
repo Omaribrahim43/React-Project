@@ -1,5 +1,6 @@
 import React from "react";
 
+
 const Map = () => {
   return (
     <div class="container section negative-margin">
@@ -15,6 +16,7 @@ const Map = () => {
         </div>
       </div>
     </div>
+  
   );
 };
 
